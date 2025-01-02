@@ -85,6 +85,7 @@ nav{
   align-items: center;
   position: fixed;
   z-index: 10;
+  /* border-bottom: var(--divider-line-color) solid 1px; */
   background-color: var(--navbar-bg-color);
 }
 

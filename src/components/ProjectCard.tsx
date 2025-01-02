@@ -15,10 +15,15 @@ interface ProjectCardProps {
 
             .project-card:hover .project-title {
               color: #535bf2;
+              cursor: pointer;
+            }
+
+            .project-card:hover{
+              cursor: pointer;
             }
 
             .project-title {
-              font-size: clamp(1rem, 5vw, 2rem);
+              font-size: clamp(1rem, 5vw, 1.6rem);
               text-align: left; /* Ensures the title is aligned left */
             }
 
