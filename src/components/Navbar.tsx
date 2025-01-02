@@ -1,5 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import ThemeToggle from "./ThemeToggle";
+import { Link } from "react-router-dom";
+
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid'
 
 function Navbar() {
@@ -37,16 +39,26 @@ function Navbar() {
   return (
     <nav>
         <div className="navbar-logo">
-            <h2>Logo</h2>
+            <Link to="/">
+                <h2>Gaurav</h2>
+            </Link>
         </div>
         <div className="navbar-items">
-            <ThemeToggle />
-            <div className="navbar-links">
-                <a className="navbar-link">Projects</a>
-                <a className="navbar-link">Blog</a>
-                <a className="navbar-link">About</a>
-                <a className="navbar-link">Contact</a>
-            </div>
+        <ThemeToggle />
+        <div className="navbar-links">
+            <Link className="navbar-link" to="/projects">
+            Projects
+            </Link>
+            <Link className="navbar-link" to="/blog">
+            Blog
+            </Link>
+            <Link className="navbar-link" to="/about">
+            About
+            </Link>
+            <Link className="navbar-link" to="/contact">
+            Contact
+            </Link>
+        </div>
             <button className="menu-toggle" onClick={toggleMenu} style={{
             width: '1.6rem',
             cursor: 'pointer',
@@ -71,10 +83,18 @@ function Navbar() {
       }} aria-label="Toggle Menu">
         <XMarkIcon />
       </button>
-        <a className="navbar-link">Projects</a>
-        <a className="navbar-link">Blog</a>
-        <a className="navbar-link">About</a>
-        <a className="navbar-link">Contact</a>
+      <Link className="navbar-link" to="/projects">
+            Projects
+            </Link>
+            <Link className="navbar-link" to="/blog">
+            Blog
+            </Link>
+            <Link className="navbar-link" to="/about">
+            About
+            </Link>
+            <Link className="navbar-link" to="/contact">
+            Contact
+            </Link>
       </div>
     </nav>
   )
