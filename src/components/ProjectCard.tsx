@@ -39,7 +39,7 @@ interface ProjectCardProps {
             .project-description {
               font-size: 1rem;
               color: #888;
-              margin: 1rem 0 1rem 0;
+              margin: 0.7rem 0 1rem 0;
               text-align: left; /* Ensures the title is aligned left */
             }
             .project-icon{
