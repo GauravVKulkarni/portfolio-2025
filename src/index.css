@@ -65,7 +65,7 @@ h2 {
 }
 
 :root[data-theme='dark'] {
-  color: rgba(255, 255, 255, 0.87);
+  color: rgba(255, 255, 255);
   background-color: #000;
   --navbar-bg-color: #000;
   --divider-line-color: #333; 
@@ -190,4 +190,43 @@ footer{
 .footer-link{
   color: inherit;
   cursor: pointer;
+}
+
+.hero-section{
+  width: 100%;
+  display: flex;
+  gap: clamp(5rem, 8vw, 8rem);
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+
+@media (width < 769px){
+  .hero-section{
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+}
+
+.construction-svg-container{
+  width: clamp(15rem, 40vw, 20rem);;
+}
+
+.svg-image{
+  fill: inherit;
+  width: 100%;
+  height: auto;
+  transform: scaleX(-1);
+}
+
+.hero-text{
+  width: max-content;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-text h1{
+  font-size: clamp(3rem, 5vw, 5rem);
+  font-weight: 500;
 }
