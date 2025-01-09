@@ -7,25 +7,14 @@ function Projects() {
           {`
             .projects-container{
                 width: 100%;
-                margin-top: 15vh;
+                padding-top: 25vh;
             }
 
-            .divider-line {
-            border: 0;
-            height: 1px;
-            background-color: var(--divider-line-color);
-            margin: 1rem 0;
-          }
-
-          .page-title{
-            width: 100%;
-            text-align: left;
-            margin-bottom: 4rem;
-          }
-
-          .page-title h1{
-            font-size: clamp(1.6rem, 4vw, 2.4rem);
-          }
+            .page-title{
+              width: 100%;
+              text-align: left;
+              margin-bottom: 4rem;
+            }
           `}
         </style>
         <div className="projects-container">
