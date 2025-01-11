@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 const DivCycler = () => {
   const divs = [
-    <div key="1" className="cycle-div" style={{ padding: '20px' }}>
+    <div key="1" className="cycle-div" style={{ padding: '20px', fontFamily: '"Source Code Pro"' }}>
       <h1>Developer</h1>
     </div>,
     <div key="2" className="cycle-div" style={{ padding: '20px' }}>
