@@ -5,7 +5,7 @@ const DivCycler = () => {
     <div key="1" className="cycle-div" style={{ padding: '20px', fontFamily: '"Source Code Pro"' }}>
       <h1>Developer</h1>
     </div>,
-    <div key="2" className="cycle-div" style={{ padding: '20px' }}>
+    <div key="2" className="cycle-div" style={{ padding: '20px', fontFamily: "Caveat", fontSize: "clamp(1.8rem, 5vw, 3rem)" }}>
       <h1>Designer</h1>
     </div>,
     <div key="3" className="cycle-div" style={{ padding: '20px' }}>

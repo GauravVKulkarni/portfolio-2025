@@ -40,7 +40,7 @@ function Navbar() {
     <nav>
         <div className="navbar-logo">
             <Link to="/">
-                <h2>Gaurav</h2>
+                <h2>Home</h2>
             </Link>
         </div>
         <div className="navbar-items">
@@ -51,9 +51,6 @@ function Navbar() {
             </Link>
             <Link className="navbar-link" to="/blog">
             Blog
-            </Link>
-            <Link className="navbar-link" to="/about">
-            About
             </Link>
             <Link className="navbar-link" to="/contact">
             Contact

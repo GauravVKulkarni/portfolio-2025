@@ -1,11 +1,13 @@
-import HeroPhoto from "./HeroPhoto"
+// import HeroPhoto from "./HeroPhoto"
 
 function HeroSection() {
   return (
     <>
         <div className="hero-section">
         <div className="hero-text">
-            <h1>
+            <h1 
+            style={{fontFamily: "Caveat"}}
+            >
               Hi! I am
               <br></br>
                 Gaurav Kulkarni

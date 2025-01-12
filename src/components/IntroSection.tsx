@@ -1,4 +1,5 @@
-import DivCycler from './Divcycler'
+import DivCycler from "./DivCycler"
+
 
 function IntroSection() {
   return (
