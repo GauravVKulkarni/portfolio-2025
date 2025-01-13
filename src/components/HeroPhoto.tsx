@@ -1,6 +1,7 @@
 function HeroPhoto() {
   return (
     <div className="construction-svg-container">
+      <p>Photo here</p>
           <svg className="svg-image" xmlns="http://www.w3.org/2000/svg" width="48" height="47.273" viewBox="0 0 48 47.273">
             <g>
               <g>
