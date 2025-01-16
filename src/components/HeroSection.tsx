@@ -12,9 +12,6 @@ function HeroSection() {
               <br></br>
                 Gaurav Kulkarni, A Creative Developer
             </h1>
-            <p>
-              A passionate software developer, designer and an artist
-            </p>
         </div>
         {/* <HeroPhoto /> */}
       </div>
