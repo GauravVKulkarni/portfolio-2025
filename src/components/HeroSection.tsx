@@ -10,7 +10,7 @@ function HeroSection() {
             >
               Hi! I am
               <br></br>
-                Gaurav Kulkarni
+                Gaurav Kulkarni, A Creative Developer
             </h1>
             <p>
               A passionate software developer, designer and an artist
