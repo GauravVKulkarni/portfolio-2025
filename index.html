@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A modern, responsive, and accessible web page template." />
+    <meta name="keywords" content="web development, responsive design, SEO, accessibility" />
+    <meta name="author" content="Gaurav Kulkarni" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://yourwebsite.com" />
+
+    <title>Gaurav</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="page.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet" />
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+        
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <a href="#Gaurav" class="logo">
+                <h1 class="logo">GK</h1>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li id="home-link"><a href="#Gaurav">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="menu-toggle" aria-label="Toggle Navigation">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 12H20" stroke="#f4f4f4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M4 6H20" stroke="#f4f4f4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M4 18H20" stroke="#f4f4f4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="content-wrapper">
+        <main>
+            <!-- Hero Section -->
+            <section id="Gaurav" class="section">
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <h2 class="intro-small">Hi! I am</h2>
+                            <h1 id="intro">Gaurav Kulkarni</h1>
+                            <h2 class="intro-small">a Developer, Designer and Artist</h2>
+                            <!-- <p>A <span id="web-dev-hover">Web Developer</span>, <span id="ux-designer-hover">UX Designer</span>, <span id="artist-hover">Artist</span></p> -->
+                        </div>
+                        <div class="social-links">
+                            <div class="lets-connect-button">
+                                <p class="cta-text">Let's Connect</p>
+                            </div>
+                            <a id="gmail-link" class="social-link" href="https://linkedin.gauravkulkarni.in" target="_blank"
+                                rel="noopener noreferrer">
+                                <img class="social-link" src="src/svgs/gmail-svgrepo-com.svg" alt="email" />
+                            </a>
+                            <a id="linkedIn-link" class="social-link" href="https://linkedin.gauravkulkarni.in" target="_blank" rel="noopener noreferrer">
+                                <img class="social-link" src="src/svgs/In-Blue-128@2x.png" alt="LinkedIn" />
+                            </a>
+                            <a id="x-link" class="social-link" href="https://x.gauravkulkarni.in" target="_blank">
+                                <img class="social-link" src="src/svgs/x-logo-white.png" alt="X (Twitter)" />
+                            </a>
+                            <a id="github-link" class="social-link" href="https://github.gauravkulkarni.in" target="_blank">
+                                <img class="social-link" src="src/svgs/github.png" alt="github" />
+                            </a>
+                            <a id="instagram-link" class="social-link tech-icon-label" href="https://ig.gauravkulkarni.in" target="_blank">
+                                <img class="social-link" src="src/svgs/instagram-1-svgrepo-com.svg" alt="instagram" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- <div class="hero-image">
+                        <img src="images/gaurav-image.jpg" alt="Gaurav Kulkarni">
+                    </div> -->
+                </div>
+                <a href="#about" class="scroll-down-indicator">
+                        <img class="down-arrow" src="src/icons/arrow-left.svg" alt="Scroll down" />
+                </a>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="section">
+                <div class="about-container">
+                    <h1 class="layer-text">
+                        I'm a developer with a designer's eye
+                    </h1>
+                    <div class="layer layer-primary"></div>
+                    <div class="layer layer-secondary"></div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section">
+                <div class="projects-section">
+                    <div class="project-heading">
+                        <h2>Projects</h2>
+                    </div>
+                    <div class="projects-container">
+                        <!-- Repeat project-card for other projects -->
+                        <div class="project-card">
+                            <div class="project-title-links">
+                                <h3>DocLens</h3>
+                                <div class="project-links">
+                                    <a href="" class="icon-label-button">
+                                        <img class="social-link circular-icon" src="src/svgs/github.png" alt="Github" />
+                                        <strong>Github</strong>
+                                    </a>
+                                    <a href="" class="icon-label-button">
+                                        <strong>Learn more</strong>
+                                        <img class="inverted-arrow" src="src/icons/arrow-left.svg" alt="Learn more" />
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="project-description">
+                                <strong>Smart India Hackathon 2024 Winner</strong> team project<br /><br />
+                                An AI-Powered Intelligent Document Text Extraction System that Accelerates Recruitment/Admission Process
+                            </p>
+                            <div class="tech-stack">
+                                <strong>Built using:</strong>
+                                <a href="https://ai.meta.com/llama/" class="tech-icon-label" target="_blank" rel="noopener noreferrer">
+                                    <img class="tech-icon" src="src/svgs/llama.png" alt="Llama 3.2 Vision Model" />
+                                    <p>Llama 3.2 Vision</p>
+                                </a>
+                                
+                                <a href="https://www.djangoproject.com/" class="tech-icon-label" target="_blank" rel="noopener noreferrer">
+                                    <img class="tech-icon" src="src/svgs/django-logo-negative.svg" alt="Django" />
+                                    <p>Django</p>
+                                </a>
+                                
+                                <a href="https://react.dev/" class="tech-icon-label" target="_blank" rel="noopener noreferrer">
+                                    <img class="tech-icon" src="src/svgs/react-svgrepo-com.svg" alt="ReactJS" />
+                                    <p>ReactJS</p>
+                                </a>
+                                
+                                <a href="https://www.postgresql.org/" class="tech-icon-label" target="_blank" rel="noopener noreferrer">
+                                    <img class="tech-icon" src="src/svgs/postgresql.svg" alt="PostgreSQL" />
+                                    <p>PostgreSQL</p>
+                                </a>
+                            </div>
+                            <!-- <div class="project-image-wrapper">
+                                <img class="project-image" src="src/images/portfolio-img.jpg" alt="Project Image">
+                            </div> -->
+                        </div>
+                        <div class="project-card">
+                            <div class="project-title-links">
+                                <h3>ResearchHouse</h3>
+                                <div class="project-links">
+                                    <a href="" class="icon-label-button">
+                                        <img class="social-link circular-icon" src="src/svgs/github.png" alt="Github" />
+                                        <strong>Github</strong>
+                                    </a>
+                                    <a href="" class="icon-label-button">
+                                        <strong>Learn more</strong>
+                                        <img class="inverted-arrow" src="src/icons/arrow-left.svg" alt="Learn more" />
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="project-description">
+                                <strong>Smart India Hackathon 2023 Finalist</strong> team project<br /><br />
+                                An online platform for post-graduation dissertaion monitoring and management
+                            </p>
+                            <div class="tech-stack">
+                                <strong>Built using:</strong>
+                                <a href="https://nextjs.org/" class="tech-icon-label" target="_blank" rel="noopener noreferrer">
+                                    <img class="tech-icon" src="src/svgs/nextjs-icon-svgrepo-com 1.svg" alt="NextJS" />
+                                    <p>NextJS</p>
+                                </a>
+                                
+                                <a href="https://www.mongodb.com/" class="tech-icon-label" target="_blank" rel="noopener noreferrer">
+                                    <img class="tech-icon" src="src/svgs/MongoDB_Logomark_SpringGreen.svg" alt="MongoDB" />
+                                    <p>MongoDB</p>
+                                </a>
+                                
+                                <a href="https://flask.palletsprojects.com/" class="tech-icon-label" target="_blank" rel="noopener noreferrer">
+                                    <img class="tech-icon inverted" src="src/svgs/flask.svg" alt="Flask" />
+                                    <p>Flask</p>
+                                </a>
+                            </div>
+                            <!-- <div class="project-image-wrapper">
+                                <img class="project-image" src="src/images/portfolio-img.jpg" alt="Project Image">
+                            </div> -->
+                        </div>
+                        <div class="project-card">
+                            <div class="project-title-links">
+                                <h3>This Portfolio</h3>
+                                <div class="project-links">
+                                    <a href="" class="icon-label-button">
+                                        <img class="social-link circular-icon" src="src/svgs/github.png" alt="Github" />
+                                        <strong>Github</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="project-description">
+                                A <strong>Handcrafted</strong> minimalistic, responsive, and animation-rich portfolio website
+                            </p>
+                            <div class="tech-stack">
+                                <strong>Built using:</strong>
+                                <a href="https://greensock.com/gsap/" class="tech-icon-label" target="_blank" rel="noopener noreferrer">
+                                    <img class="tech-icon" src="src/svgs/gsap-greensock.svg" alt="GSAP" />
+                                    <p>GSAP</p>
+                                </a>
+                                
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" class="tech-icon-label" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <img class="tech-icon" src="src/svgs/html-5-svgrepo-com.svg" alt="HTML" />
+                                    <p>HTML</p>
+                                </a>
+                                
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" class="tech-icon-label" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <img class="tech-icon" src="src/svgs/css-3-svgrepo-com.svg" alt="CSS" />
+                                    <p>CSS</p>
+                                </a>
+                                
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="tech-icon-label" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <img class="tech-icon" src="src/svgs/js-svgrepo-com.svg" alt="JavaScript" />
+                                    <p>JavaScript</p>
+                                </a>
+                            </div>
+                            <!-- <div class="project-image-wrapper">
+                                <img class="project-image" src="src/images/portfolio-img.jpg" alt="Project Image">
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact">
+                <div class="contact-cta-text">
+                    <div class="contact-text">
+                        <span id="flipText">Hiring?</span>
+                    </div>
+                    <h2>Let's get in touch!</h2>
+                    <nav style="margin-top: 2rem;">
+                        <div class="contact-links">
+                            <a id="gmail-link" class="social-link tech-icon-label" href="https://linkedin.gauravkulkarni.in" target="_blank"
+                                rel="noopener noreferrer">
+                                <img class="social-link" src="src/svgs/gmail-svgrepo-com.svg" alt="email" />
+                                <p>email</p>
+                            </a>
+                            <a id="linkedIn-link" class="social-link tech-icon-label" href="https://linkedin.gauravkulkarni.in" target="_blank"
+                                rel="noopener noreferrer">
+                                <img class="social-link" src="src/svgs/In-Blue-128@2x.png" alt="LinkedIn" />
+                                <p>LinkedIn</p>
+                            </a>
+                            <a id="x-link" class="social-link tech-icon-label" href="https://x.gauravkulkarni.in" target="_blank">
+                                <img class="social-link" src="src/svgs/x-logo-white.png" alt="X (Twitter)" />
+                                <p>X (Twitter)</p>
+                            </a>
+                            <a id="github-link" class="social-link tech-icon-label" href="https://github.gauravkulkarni.in" target="_blank">
+                                <img class="social-link" src="src/svgs/github.png" alt="github" />
+                                <p>Github</p>
+                            </a>
+                            <a id="instagram-link" class="social-link tech-icon-label" href="https://instagram.gauravkulkarni.in" target="_blank">
+                                <img class="social-link" src="src/svgs/instagram-1-svgrepo-com.svg" alt="instagram" />
+                                <p>Instagram</p>
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div style="display: flex;
+        gap: 0.5rem;">
+            <!-- <img class="social-link" src="src/svgs/gmail-svgrepo-com.svg" alt="email" /> -->
+            <p>Email ID:</p>
+            <p>gaurav.kulkarni.contact@gmail.com</p>
+        </div>
+        <p class="footer-text">&copy; 2025 Gaurav Kulkarni</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <script src="gsap.js"></script>
+</body>
+
+</html>
