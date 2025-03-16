@@ -16,6 +16,17 @@ html {
     overflow-x: hidden;
 }
 
+html::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bg-color);
+    z-index: -1;
+}
+
 body {
     font-family: 'Geist', sans-serif;
     display: flex;
@@ -32,7 +43,7 @@ body {
     --text-color: #f4f4f9;
     --paragraph-color: #b5b5b5;
     --primary-color: #3498db;
-    --secondary-color: #2c3e50;
+    --secondary-color: #355879;
     --font-scale: 1.2;
 
     /* Fonts */

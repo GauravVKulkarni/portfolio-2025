@@ -89,7 +89,7 @@ ScrollTrigger.matchMedia({
 });
 
 // Contact Section Animation
-gsap.from('.contact-cta-text', {duration: 2, x: '-10%', opacity: '0', ease: 'expo', 
+gsap.from('.contact-text', {duration: 2, x: '-10%', opacity: '0', ease: 'expo', 
     scrollTrigger:{
         trigger: ".contact-cta-text",
         start: "top 90%",
