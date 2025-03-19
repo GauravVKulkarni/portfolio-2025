@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+	max-width: 100vw;
+	overflow-x: hidden;
 }
 
 html {
@@ -29,10 +31,10 @@ html::before {
 
 body {
     font-family: 'Geist', sans-serif;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 100vh; */
     background-color: var(--bg-color);
     color: var(--text-color);
 }

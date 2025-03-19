@@ -1,4 +1,4 @@
-.section{
+section{
     min-height: 90vh;
     padding-top: 4rem;
     width: min(100vw, 1200px);
@@ -211,6 +211,7 @@
     background-color: var(--bg-color);
     padding-top: 4rem;
     width: min(100vw, 1200px);
+    height: fit-content;
 }
 
 #projects::before {
