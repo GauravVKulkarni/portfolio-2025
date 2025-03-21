@@ -136,7 +136,7 @@ header {
     /* content layout */
     padding: 1rem 2rem;
 
-    align-self: flex-start;
+    /* align-self: flex-start; */
     width: 100%;
 
     /* blur background */
