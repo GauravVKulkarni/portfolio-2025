@@ -258,6 +258,8 @@ nav a:hover {
     max-width: 1200px;
     margin: 0 auto;
     flex-grow: 1;
+    overflow: hidden;
+    width: 100vw;
 }
 
 /* Footer */
