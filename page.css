@@ -215,7 +215,7 @@ section{
     height: fit-content;
 }
 
-#projects::before {
+/* #projects::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -225,15 +225,15 @@ section{
     z-index: -1;
 
     /* Overlay gradient - Transparent center, dark edges */
-    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 70%);
+    /* mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 70%);
     -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 70%);
-}
+} */
 
 .projects-section {
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 3rem;
-    padding: 1rem 1rem 0 0;
+    padding: 1rem;
     max-width: 100vw;
 }
 
