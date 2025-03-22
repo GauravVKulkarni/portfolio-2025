@@ -68,7 +68,7 @@ body {
     /* Responsive Typography */
     --h1-size: clamp(1.8rem, 5vw, 2.5rem);
     --h2-size: clamp(1.5rem, 4vw, 2rem);
-    --h3-size: clamp(1.25rem, 3vw, 1.75rem);
+    --h3-size: clamp(1.5rem, 3vw, 1.75rem);
     --body-text-size: clamp(0.875rem, 2vw, 1rem);
     --small-text-size: clamp(0.75rem, 2vw, 0.875rem);
 
